@@ -1,0 +1,14 @@
+{     
+    "jsonrpc": "2.0",
+    "method": "hostgroup.get",
+    "params": {
+        "output": "extend",
+        "filter": {
+            "host": [
+                "Serveurs Core Ruche"
+            ]
+        }
+    },
+    "auth": "d82e6f506c99ea25b0b5edadd03de531",
+    "id": 1
+}
