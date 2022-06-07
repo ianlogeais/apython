@@ -1,0 +1,29 @@
+{
+    "jsonrpc": "2.0",
+    "method": "host.create",
+    "params": {
+        "host": "test",
+        "interfaces": [
+            {
+                "type": 1,
+                "main": 1,
+                "useip": 1,
+                "ip": "10.10.10.10",
+                "dns": "",
+                "port": "10050"
+            }
+        ],
+        "groups": [
+            {
+                "groupid": "2"
+            }
+        ],
+        "templates": [
+            {
+                "templateid": "10326"
+            }
+        ]
+        },
+        "auth": "d82e6f506c99ea25b0b5edadd03de531",            
+        "id": 1
+}
